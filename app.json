@@ -10,14 +10,14 @@
     "exec_mode"         : "fork_mode",
     "env":
     {
-      "NODE_ENV"        : "production",
-      "RPC_HOST"        : "localhost",
-      "RPC_PORT"        : "8545",
-      "LISTENING_PORT"  : "30303",
-      "INSTANCE_NAME"   : "",
+      "NODE_ENV"        : "development",
+      "RPC_HOST"        : "rpc_ip_addr",
+      "RPC_PORT"        : "8081",
+      "LISTENING_PORT"  : "30308",
+      "INSTANCE_NAME"   : "fullnode#?",
       "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "wss://rpc.ethstats.net",
-      "WS_SECRET"       : "see http://forum.ethereum.org/discussion/2112/how-to-add-yourself-to-the-stats-dashboard-its-not-automatic",
+      "WS_SERVER"       : "ws://ethstats_ip_addr:3000",
+      "WS_SECRET"       : "qwerty",
       "VERBOSITY"       : 2
     }
   }
