@@ -7,7 +7,7 @@ This is the backend service which runs along with ethereum and tracks the networ
 
 ## Prerequisite
 * eth, geth or pyethapp
-* node
+* node (same major version than for eth-netstats !)
 * npm
 
 
